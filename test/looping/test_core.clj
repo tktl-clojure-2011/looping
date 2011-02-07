@@ -23,3 +23,8 @@
        (find-first-index zero? [1 1 3 7 2])                  => nil
        (find-first-index #(= % 6) [:cat :dog :six :blorg 6]) => 4
        (find-first-index nil? [])                            => nil)
+
+(facts "avg"
+       (avg [1 2 3])   => 2
+       (avg [0 0 0 4]) => 1
+       (avg [1 0 0 1]) => (roughly 0.5))

@@ -12,4 +12,7 @@
 (defn find-first-index [pred a-seq]
   ":(")
 
+(defn avg [a-seq]
+  ":(")
+
 ;(
