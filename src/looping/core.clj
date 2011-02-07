@@ -6,4 +6,7 @@
 (defn last-element [a-seq]
   ":(")
 
+(defn seq= [seq1 seq2]
+  ":(")
+
 ;(
