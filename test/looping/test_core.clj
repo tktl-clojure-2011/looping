@@ -21,5 +21,5 @@
 (facts "find-first-index"
        (find-first-index zero? [1 1 1 0 3 7 0 2])            => 3
        (find-first-index zero? [1 1 3 7 2])                  => nil
-       (find-first-index #(= % 6) [:cat :dog :six :blorg 6]) => 5
+       (find-first-index #(= % 6) [:cat :dog :six :blorg 6]) => 4
        (find-first-index nil? [])                            => nil)
