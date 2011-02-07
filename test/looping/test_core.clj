@@ -39,6 +39,4 @@
        (fast-fibo 1) => 1
        (fast-fibo 2) => 1
        (fast-fibo 3) => 2
-       (fast-fibo 4) => 3
-       (fast-fibo 5) => 5
-       (fast-fibo 6) => 8)
+       (fast-fibo 85) => 259695496911122585)
