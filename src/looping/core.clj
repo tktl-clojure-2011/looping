@@ -3,4 +3,7 @@
 (defn power [base exp]
   ":(")
 
+(defn last-element [a-seq]
+  ":(")
+
 ;(
