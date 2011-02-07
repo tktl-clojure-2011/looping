@@ -15,4 +15,7 @@
 (defn avg [a-seq]
   ":(")
 
+(defn parity [a-seq]
+  ":(")
+
 ;(

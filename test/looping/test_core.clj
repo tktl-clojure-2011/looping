@@ -28,3 +28,8 @@
        (avg [1 2 3])   => 2
        (avg [0 0 0 4]) => 1
        (avg [1 0 0 1]) => (roughly 0.5))
+
+(facts "parity"
+       (parity [:a :b :c])            => (just [:a :b :c] :in-any-order)
+       (parity [:a :b :c :a])         => (just [:b :c] :in-any-order)
+       (parity [1 1 2 1 2 3 1 2 3 4]) => (just [2 4] :in-any-order))
