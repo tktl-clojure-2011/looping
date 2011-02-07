@@ -40,3 +40,10 @@
        (fast-fibo 2) => 1
        (fast-fibo 3) => 2
        (fast-fibo 85) => 259695496911122585)
+
+(facts "cut-at-repetition"
+       (cut-at-repetition [1 1 1 1 1]) => [1]
+       (cut-at-repetition [:cat :dog :house :milk 1 :cat :dog])
+           => [:cat :dog :house :milk 1]
+       (cut-at-repetition [0 1 2 3 4 5])
+           => [0 1 2 3 4 5])

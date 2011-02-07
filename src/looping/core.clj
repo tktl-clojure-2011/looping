@@ -21,4 +21,7 @@
 (defn fast-fibo [n]
   ":(")
 
+(defn cat-at-repetition [a-seq]
+  ":(")
+
 ;(
