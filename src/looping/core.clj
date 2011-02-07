@@ -9,4 +9,7 @@
 (defn seq= [seq1 seq2]
   ":(")
 
+(defn find-first-index [pred a-seq]
+  ":(")
+
 ;(

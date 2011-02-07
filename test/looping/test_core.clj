@@ -17,3 +17,9 @@
        (seq= [1 2 4] '(1 2 4))  => true
        (seq= [1 2 3] [1 2 3 4]) => false
        (seq= [1 3 5] [])        => false)
+
+(facts "find-first-index"
+       (find-first-index zero? [1 1 1 0 3 7 0 2])            => 3
+       (find-first-index zero? [1 1 3 7 2])                  => nil
+       (find-first-index #(= % 6) [:cat :dog :six :blorg 6]) => 5
+       (find-first-index nil? [])                            => nil)
