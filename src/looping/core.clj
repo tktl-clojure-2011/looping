@@ -18,4 +18,7 @@
 (defn parity [a-seq]
   ":(")
 
+(defn fast-fibo [n]
+  ":(")
+
 ;(

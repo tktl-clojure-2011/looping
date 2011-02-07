@@ -33,3 +33,12 @@
        (parity [:a :b :c])            => (just [:a :b :c] :in-any-order)
        (parity [:a :b :c :a])         => (just [:b :c] :in-any-order)
        (parity [1 1 2 1 2 3 1 2 3 4]) => (just [2 4] :in-any-order))
+
+(facts "fast-fibo"
+       (fast-fibo 0) => 0
+       (fast-fibo 1) => 1
+       (fast-fibo 2) => 1
+       (fast-fibo 3) => 2
+       (fast-fibo 4) => 3
+       (fast-fibo 5) => 5
+       (fast-fibo 6) => 8)
